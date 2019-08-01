@@ -1,5 +1,5 @@
-var preClick = document.getElementsByClassName("prev").addEventListener("click", plusSlides(-1));
-var nextClick = document.getElementsByClassName("next").addEventListener("click", plusSlides(1));
+
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
