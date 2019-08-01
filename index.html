@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -11,67 +11,78 @@
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img class="slidimg" src="https://media.antwerpen.be/media/6/h/hlUGcTWUZgfRkbMTNHt4aqNB/1560261924486.jpg">
+            <div class="numbertext">Antwerpen</div>
+            <img class="slidimg" src="https://media.antwerpen.be/media/6/f/f28jPqinYMpaZ7kcbTWovlc0/1560771678463.jpg">
             <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
+            <div class="numbertext">Antwerpen</div>
             <img class="slidimg"
-                 src="https://www.fujifilmusa.com/products/digital_cameras/x/fujifilm_x20/sample_images/img/index/ff_x20_008.JPG">
+                 src="https://safety4sea.com/wp-content/uploads/2017/11/Port-of-Antwerp-1280x640.jpg">
             <div class="text">Caption Two</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
+            <div class="numbertext">Antwerpen</div>
             <img class="slidimg" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg">
             <div class="text">Caption Three</div>
         </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="mySlides fade">
+                <div class="numbertext">Antwerpen</div>
+                <img class="slidimg" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg">
+                <div class="text">Caption four</div>
+            </div>
 
+            <div class="mySlides fade">
+                <div class="numbertext">Antwerpen</div>
+                <img class="slidimg" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg">
+                <div class="text">Caption five</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+
+
+
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablink" onclick="openPage('summary')" id="defaultOpen">Summary</button>
+            <button class="tablink" onclick="openPage('practical')">Practical Info</button>
+            <button class="tablink" onclick="openPage('contact')">Contact Form</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="summary" class="tabcontent">
+            <h3>Summary</h3>
+            <p>Heb je even genoeg van het feestgedruis in de binnenstad en sta je te popelen om een nieuwe wereld van
+                containers, schepen, industrie, sluizen, … te ontdekken? Schrijf je dan in voor een boottochten van Port
+                of
+                Antwerp!</p>
+        </div>
+
+        <div id="practical" class="tabcontent" style="display:none">
+            <h3>Practical Info</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="contact" class="tabcontent" style="display:none">
+            <h3>Contact Form</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div class="live-feed">
+            <div><img class="feed" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg"></div>
+            <div><img class="feed" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg"></div>
+            <div><img class="feed" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg"></div>
+
+        </div>
     </div>
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-
-    <!-- Tab links -->
-    <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-    </div>
-
-    <!-- Tab content -->
-    <div id="London" class="tabcontent">
-        <h3>London</h3>
-        <p>London is the capital city of England.</p>
-    </div>
-
-    <div id="Paris" class="tabcontent" style="display:none">
-        <h3>Paris</h3>
-        <p>Paris is the capital of France.</p>
-    </div>
-
-    <div id="Tokyo" class="tabcontent" style="display:none">
-        <h3>Tokyo</h3>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-
-    <div class="live-feed">
-        <div><img class="feed" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg"></div>
-        <div><img class="feed" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg"></div>
-        <div><img class="feed" src="http://wowslider.com/sliders/demo-77/data1/images/road220058.jpg"></div>
-
-    </div>
-</div>
     <script src="myscript.js"></script>
 
 </body>
