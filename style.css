@@ -260,3 +260,19 @@ form{
   margin-right: 10px;
   width: 300px;
 }
+.et{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+.event-text{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
